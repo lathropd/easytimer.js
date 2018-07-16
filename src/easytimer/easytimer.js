@@ -508,6 +508,8 @@ function Timer () {
     this.addEventListener = addEventListener;
 
     this.removeEventListener = removeEventListener;
+    
+    this.calculateTotalCounterFromValues = calculateTotalCounterFromValues;
   }
 };
 
